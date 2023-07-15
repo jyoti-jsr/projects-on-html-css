@@ -1,5 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400&family=Roboto:wght@300&family=Ubuntu:wght@300&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Inter;
+}
+body {
+  background: #a9a9a9;
+}
+.container {
+  width: 900px;
+  border-radius: 13px;
+  background: #fff;
+  margin: 27px 270px;
+  padding: 36px;
+}
+.header {
+  color: #000;
+  font-size: 57px;
+  font-weight: 600;
+}
+.webtext {
+  color: #04175a;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 20px;
+}
+input,
+select,
+textarea {
+  display: block;
+}
+input {
+  width: 393px;
+  height: 66px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 66px;
+  padding-left: 10px;
+}
+.form-control {
+  /* display: flex; */
+
+  margin-bottom: 10px;
+}
+.form-container {
+  margin-top: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* justify-content: start; */
+}
+textarea {
+  width: 825px;
+  height: 164px;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.button-container {
+  margin-top: 121px;
+  width: 900px;
+  text-align: end;
+}
+.button-container button {
+  border-style: none;
+  width: 168px;
+  height: 46px;
+  border-radius: 5px;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 8px;
+  cursor: pointer;
+}
+select {
+  width: 393px;
+  height: 66px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #fff;
+  line-height: 66px;
+  padding-left: 10px;
 }

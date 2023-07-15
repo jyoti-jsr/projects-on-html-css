@@ -6,5 +6,60 @@
     <title>Job-Form</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p>Job Application <span class="webtext">(Web)</span></p>
+      </div>
+      <form action="">
+        <div class="form-container">
+          <div class="form-control">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" />
+          </div>
+          <div class="form-control">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="form-control">
+            <label for="job-role">Job Role</label>
+            <select name="job-role" id="job-role">
+              <option value="" disabled>--Please choose an option--</option>
+              <option value="frontend">Frontend Developer</option>
+              <option value="backend">Backend Developer</option>
+              <option value="fullstack">Full Stack Developer</option>
+              <option value="ui/ux">UI UX Developer</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="address">Address</label>
+            <textarea name="address" id="Address" cols="50" rows="4"></textarea>
+          </div>
+          <div class="form-control">
+            <label for="city">City</label>
+            <input id="city" type="text" />
+          </div>
+          <div class="form-control">
+            <label for="pincode">Pincode</label>
+            <input id="pincode" type="number" />
+          </div>
+          <div class="form-control">
+            <label for="start-data">Start Date</label>
+            <input id="start-date" type="date" />
+          </div>
+          <div class="form-control">
+            <label for="cv">Upload Your Cv</label>
+            <input id="cv" type="file" />
+          </div>
+          <div class="button-container">
+            <button type="submit">Apply Now</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
